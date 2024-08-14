@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f9f9f9;
+}
+
+.section {
+    text-align: center;
+    margin: 20px;
+}
+
+.countdown-box {
+    display: inline-block;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #8a8a5c;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sectionx {
+    text-align: center;
+    margin: 20px;
+}
+
+.intro-video {
+    width: 5%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.main-image {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.secondary-image {
+    width: 70%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.countdown-box {
+    display: inline-block;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #8a8a5c;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.count-item h3 {
+    font-size: 2.5em;
+    color: #8a8a5c;
+}
+
+.count-item p {
+    font-size: 1.2em;
+    color: #8a8a5c;
+}
+
+.music-input, .text-input {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-button, .bank-button {
+    background-color: #8a8a5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.submit-button:hover, .bank-button:hover {
+    background-color: #6c6c47;
+}
+
+.photo {
+    width: 30%;
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+    .count-item h3 {
+        font-size: 1.5em;
+    }
+
+    .count-item p {
+        font-size: 0.8em;
+    }
+
+    .photo {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .submit-button, .bank-button {
+        width: 100%;
+    }
+}
